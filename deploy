@@ -1,0 +1,8 @@
+-#!/bin/sh      
+#ssh userName@development-server-ip <<EOF        
+ cd C:\Users\Iroshan\jenkins\myjenkinstest  
+  git pull       
+   npm install --production       
+    node restart all
+     exit       
+     EOF
